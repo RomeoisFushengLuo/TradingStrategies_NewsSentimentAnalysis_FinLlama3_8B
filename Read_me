@@ -1,0 +1,26 @@
+Abstract
+----
+In this study, we investigated the effectiveness of QLoRA-based6
+fine-tuning on Meta-LLaMA3-8B for the classification of financial sen-7
+timent and signal generation. Leveraging a diverse set of domain-8
+specific datasets and the SWIFT framework, our model achieved su-9
+perior performance over established baselines—such as FinBERT (a10
+classic sentiment analyzer in academia), RoBERTa, and VADER—in11
+both sentiment classification and downstream trading strategies on a12
+separate financial news dataset.
+
+Keyword
+----
+Financial Sentiment Analysis, Large Language Models, QLoRA,14
+LLaMA, Fine-tuning, Market-Neutral Trading Strategy, K-means Clustering
+
+Model Used
+----
+Llama-3 8B
+
+Method used
+----
+Fine-tuning: QLora + Supervised Fine-tuning
+Signal Building: See more in the paper
+
+
